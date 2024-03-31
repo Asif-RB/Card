@@ -25,6 +25,16 @@ div.card {
     border-radius: 5px;
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.2);
 }
+div.container div.img-box{
+    position: relative;
+}
+span{
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 2rem;
+}
 
 div.container div.img-box img {
     width: 100%;
