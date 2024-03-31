@@ -11,3 +11,6 @@ remove.addEventListener('click',function(){
     add.innerHTML = "Add Friend";
 })
 
+$('span').click(function(){
+    $('div.container').remove();
+})
