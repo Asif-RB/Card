@@ -11,6 +11,15 @@ remove.addEventListener('click',function(){
     add.innerHTML = "Add Friend";
 })
 
-$('span').click(function(){
+$('span.cross-mark').click(function(){
     $('div.container').remove();
+})
+
+$('img').dblclick(function(){
+    $('span.heart').css("transform", "translate(-50%,-250%) scale(1)"
+    )
+    setTimeout(function(){
+        $('span.heart').css("transform", "translate(-50%,-250%) scale(0)"
+    )
+    },900)
 })
